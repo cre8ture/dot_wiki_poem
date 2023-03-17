@@ -1,4 +1,6 @@
 import './App.css'
+// import DisplayText from './components/displayPoem'
+import PoemInputs from './components/poemInputOptions'
 
 export default function App() {
   return (
@@ -6,13 +8,15 @@ export default function App() {
       
       <div className='App-header '>
     <h1 className="text-3xl text-green-500 font-bold place-items-center">
-      Hello world!
+      Auto Poem!
     </h1>
     </div>
 
 
-< div className="text-green-500">Text</div>
-
+< div className="text-green-500"></div>
+<br></br>
+<PoemInputs />
+{/* <DisplayText/> */}
 
   </div>
   )
